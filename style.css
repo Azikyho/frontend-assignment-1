@@ -1,0 +1,248 @@
+/* Basic settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+/* Introduction */
+.introduction {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 25px;
+}
+
+.introduction h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.introduction h2 {
+    font-size: 1.5em;
+}
+
+.introduction h3 {
+    font-size: 1.2rem;
+}
+
+
+/* Lists */
+.lists {
+    background-color: white;
+    width: 85%;
+    margin: 0 auto 25px auto;
+    padding: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.lists h2 {
+    color: #333;
+}
+
+.lists h5 {
+    color: #777;
+}
+
+ol {
+    padding-left: 30px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.lists img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px 10px 15px 0;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+.lists img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.buttons button {
+    background-color: #222;
+    color: white;
+    border: 3px solid #555;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #444;
+}
+
+
+/* Schedule */
+.schedule {
+    background-color: white;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.schedule h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #888;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Form */
+.Forms {
+    background-color: white;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.Forms h2 {
+    margin-bottom: 25px;
+}
+
+.Forms label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.Forms input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.Forms input[type="color"] {
+    width: 80px;
+    height: 45px;
+    padding: 2px;
+}
+
+.Forms button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.Forms button:hover {
+    background-color: #444;
+}
+
+
+/* Box model example */
+.schedule {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 2px solid #ddd;
+}
+
+
+/* Relative positioning example */
+.introduction h3 {
+    position: relative;
+    left: 5px;
+}
+
+
+/* Different CSS units */
+.lists h2 {
+    font-size: 1.5rem;
+}
+
+.schedule {
+    max-width: 1000px;
+}
+
+.Forms {
+    width: 85%;
+}
+
+
+/* Clear floating elements */
+.clear {
+    clear: both;
+}
+
+
+/* Mobile version */
+@media (max-width: 600px) {
+
+    .introduction {
+        padding: 25px 10px;
+    }
+
+    .introduction h1 {
+        font-size: 1.8em;
+    }
+
+    .lists,
+    .schedule,
+    .Forms {
+        width: 90%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    .lists img {
+        width: 80px;
+        height: 80px;
+    }
+}
