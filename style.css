@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@ body {
     background-color: #f2f2f2;
     color: #222;
 }
-
 
 .introduction {
     background-color: #222;
@@ -71,7 +69,6 @@ li {
 .lists img:hover {
     transform: scale(1.05);
 }
-
 
 
 .buttons {
@@ -179,14 +176,12 @@ tr:nth-child(even) {
     background-color: #444;
 }
 
-
 .schedule {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 25px;
     border: 2px solid #ddd;
 }
-
 
 .introduction h3 {
     position: relative;
