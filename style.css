@@ -201,31 +201,3 @@ th {
 .clear {
     clear: both;
 }
-
-
-@media (max-width: 600px) {
-
-    .introduction {
-        padding: 25px 10px;
-    }
-
-    .introduction h1 {
-        font-size: 1.8em;
-    }
-
-    .lists,
-    .schedule,
-    .Forms {
-        width: 90%;
-        padding: 15px;
-    }
-
-    table {
-        font-size: 0.8rem;
-    }
-
-    .lists img {
-        width: 80px;
-        height: 80px;
-    }
-}
